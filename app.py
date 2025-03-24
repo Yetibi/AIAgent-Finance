@@ -67,7 +67,7 @@ if uploaded_file:
             {"role": "system", "content": "You are a forecasting expert for financial planning."},
             {"role": "user", "content": prompt}
         ],
-        model="mixtral-8x7b-32768",
+        model="qwen-qwq-32b",
     )
 
     ai_commentary = response.choices[0].message.content
