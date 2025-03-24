@@ -76,8 +76,7 @@ if uploaded_file:
     - Cualquier ciclo repetitivo importante.
     - Riesgos ocultos en la variabilidad.
 
-    Aquí tienes los datos históricos de ingresos:
-    {df[['ds', 'y']].to_json(orient='records')}
+    
     """
 
     response = client.chat.completions.create(
