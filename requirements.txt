@@ -5,3 +5,4 @@ prophet
 openpyxl
 python-dotenv
 groq
+seaborn
