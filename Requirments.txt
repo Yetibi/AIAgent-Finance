@@ -1,7 +1,6 @@
 streamlit
 pandas
-matplotlib
 prophet
 openpyxl
 python-dotenv
-groq
+matplotlib
