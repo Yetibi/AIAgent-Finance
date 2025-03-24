@@ -58,8 +58,7 @@ if uploaded_file:
     - Risks or uncertainties that could affect the forecast.
     - Executive summary in a concise style.
 
-    Here is the forecast data in JSON:
-    {forecast_json}
+   
     """
 
     response = client.chat.completions.create(
